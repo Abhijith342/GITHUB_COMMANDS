@@ -1,0 +1,39 @@
+GIT COMMANDS 
+
+git --version : to check the version and check if git is present
+git init : telling git to start working in this folder
+git clone repolink : to clone remote repository onto desktop
+git status : gives the updates and changes
+git add --all/-A : adds every changed file in the staging area
+git add . : adds only the changed file in the current directory in the staging area
+git add * : do not adds the deleted files in the staging area
+git add specificfile : adds only the file in the staging area
+git reset : go to the previous state remove from the staging area
+git commit -m "message" : conforming and changing the data permanently
+git reset HEAD~ : Undo's the last commit and returns to the working directory.
+git rm filename : deleting a file +staging
+git reset --hard : restores the deleted files
+git rm --f filename : forces to delete the file
+git rm --cached filename : only removes it from staging [file not removed]
+git rm -r folder : removes the entire folder
+git log --oneline : gets commit id and commits
+git branch : gives the different branch
+git branch name : creates a branch
+git checkout branchname : switches to another branch
+git checkout commitid : swyches to previous commit
+git merge master -m branchmessage : merges two branches
+git diff newcommitid oldcommitid : gives the deleted added files
+git push : saving local changes to remote directories
+git fetch : remote changes to the local directories
+git pull : fetch + merge
+git restore . : brings back in the last commited state
+git stash : suddenly switching between branches while doing unfinished work
+git stash pop : to bring back the stash changes
+git stash apply : keeps a copy in stash
+git stash drop stashed : drops the file from stash
+git stash list : checking if the stash is present
+git revert commitid : used to undo the changes in previous commit but creates a new commit and goes on top as revert
+git rebase branchname : all commits are applied in the currentbranch of branchname 
+
+
+
